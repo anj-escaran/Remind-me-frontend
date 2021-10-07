@@ -1,0 +1,71 @@
+#app {
+  font-family: "Gluten", cursive;
+  background: #efefef;
+  font-size: 14pt;
+  font-weight: 600;
+  color: #000000;
+}
+html,
+body {
+  font-family: "Gluten", cursive;
+  text-align: center;
+  font-size: 14pt;
+  font-weight: 600;
+  color: #000000;
+}
+
+.body-application {
+  margin-top: 30px;
+}
+
+.full-height {
+  height: 100%;
+}
+
+.theme--light.v-input input,
+.theme--light.v-input textarea {
+  color: rgba(0, 0, 0, 0.87);
+  font-weight: 600;
+}
+.v-select__selection.v-select__selection--comma {
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+label.v-label.v-label--active.theme--light {
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+label.v-label.theme--light {
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.wrapper {
+  margin-top: 30px;
+}
+
+.label-right {
+  margin-bottom: 0 !important;
+  text-align: left;
+  margin-left: 5px;
+  color: #000000;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.v-breadcrumbs li:last-child {
+  pointer-events: none !important;
+  a {
+    color: gray !important;
+  }
+}
+
+button {
+  text-transform: none !important;
+}
+
+.login {
+  transform: translate(0%, 10%);
+}
